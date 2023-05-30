@@ -3,6 +3,7 @@
 /*메뉴바*/
 .menu * {
     display: inline;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 .menu li {
@@ -11,14 +12,14 @@
 }
 
 .menu li a {
-    color: white;
+    color: #EEEEEE;
     text-decoration: none;
 }
 
 .menu a:after {
    display:block;
    content: '';
-   border-bottom: solid 2px #fff;
+   border-bottom: solid 2px #00ADB5;
    transform: scaleX(0);
    transition: transform 250ms ease-in-out;
 }
@@ -32,7 +33,7 @@
 }
 
 .menu {
-	background-color: rgba(164, 164, 164, 0.6);
+	background-color: rgba(100, 100, 100, 0.6);
     font-size: 40px;
     font-weight: bold;
     align-items: center;
@@ -43,4 +44,5 @@
     left: 0;
     right: 0;
     height: 80px;
+    border-radius: 0px 0px 30px 30px;
 }

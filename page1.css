@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+
+.page1 {
+	font-family: 'Noto Sans KR', sans-serif;
+    background-size: cover;
+    text-align: center;
+    padding-top: 300px;
+    padding-bottom: 130px;
+    line-height: 0.3;
+}
+
+.profile img {
+    width: 480px;
+    height: 480px;
+    border-radius: 30%;
+    object-fit: cover;
+    border: 5px solid #E57C23;
+}
